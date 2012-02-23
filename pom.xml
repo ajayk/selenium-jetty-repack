@@ -17,6 +17,7 @@
     <name>selenium-jetty-repacked</name>
     <url>http://github.com/krosenvold/convention-bean-factory</url>
 
+
     <properties>
         <jettyVersion>7.6.1.v20120215</jettyVersion>
     </properties>
@@ -108,7 +109,7 @@
                         </goals>
                         <configuration>
                             <includeDependencySources>true</includeDependencySources>
-                            <dependencySourceIncludes><dependencySourceInclude>org.eclipse.*</dependencySourceInclude></dependencySourceIncludes>
+                            <dependencySourceIncludes><dependencySourceInclude>org.*</dependencySourceInclude></dependencySourceIncludes>
                         </configuration>
                     </execution>
                 </executions>
