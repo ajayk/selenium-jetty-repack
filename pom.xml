@@ -23,8 +23,8 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/krosenvold/jetty-repack</connection>
-        <developerConnection>scm:git:ssh://git@github.com/krosenvold/jetty-repack.git</developerConnection>
+        <connection>scm:git:https://github.com/krosenvold/selenium-jetty-repack</connection>
+        <developerConnection>scm:git:ssh://git@github.com/krosenvold/selenium-jetty-repack.git</developerConnection>
         <url>http://github.com/krosenvold/jetty-repack</url>
     </scm>
 
