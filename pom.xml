@@ -165,13 +165,13 @@
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-webapp</artifactId>
+            <version>${jettyVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-security</artifactId>
             <version>${jettyVersion}</version>
         </dependency>
-        <!--dependency>
-         <groupId>org.eclipse.jetty.aggregate</groupId>
-         <artifactId>jetty-all</artifactId>
-         <version>${jettyVersion}</version>
-       </dependency -->
     </dependencies>
 </project>
