@@ -14,8 +14,8 @@
     </licenses>
     <packaging>jar</packaging>
     <version>7.6.1.1</version>
-    <name>selenium-jetty-repacked</name>
-    <url>http://github.com/krosenvold/convention-bean-factory</url>
+    <name>selenium-jetty-repack</name>
+    <url>http://github.com/krosenvold/selenium-jetty-repack</url>
 
 
     <properties>
