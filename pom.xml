@@ -13,13 +13,12 @@
         </license>
     </licenses>
     <packaging>jar</packaging>
-    <version>7.6.1.1</version>
+    <version>7.6.2</version>
     <name>selenium-jetty-repack</name>
     <url>http://github.com/krosenvold/selenium-jetty-repack</url>
 
-
-    <properties>
-        <jettyVersion>7.6.1.v20120215</jettyVersion>
+<properties>
+        <jettyVersion>7.6.2.v20120308</jettyVersion>
     </properties>
 
     <scm>
@@ -176,6 +175,16 @@
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-security</artifactId>
+            <version>${jettyVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-http</artifactId>
+            <version>${jettyVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-io</artifactId>
             <version>${jettyVersion}</version>
         </dependency>
     </dependencies>
